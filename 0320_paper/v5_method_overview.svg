@@ -1,119 +1,128 @@
-<svg viewBox="0 0 1500 440" xmlns="http://www.w3.org/2000/svg"
-     font-family="Arial, Helvetica, sans-serif">
+<svg viewBox="0 0 1280 760" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="m-blue" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#2559d6"/>
+    </marker>
+    <marker id="m-green" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#198046"/>
+    </marker>
+    <marker id="m-purple" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#7a45d9"/>
+    </marker>
+    <marker id="m-rose" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#c11c66"/>
+    </marker>
+    <marker id="m-eco" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#17683b"/>
+    </marker>
+    <marker id="m-teal" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#147a95"/>
+    </marker>
+  </defs>
 
-<defs>
-  <marker id="m-blue" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
-    <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#2457d6"/>
-  </marker>
-  <marker id="m-green" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
-    <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#198046"/>
-  </marker>
-  <marker id="m-purple" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
-    <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#7842d8"/>
-  </marker>
-  <marker id="m-rose" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
-    <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#c11d67"/>
-  </marker>
-  <marker id="m-teal" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="8" markerHeight="8" orient="auto">
-    <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#147a95"/>
-  </marker>
-  <marker id="m-eco" viewBox="0 0 10 8" refX="9.5" refY="4" markerWidth="6.8" markerHeight="6.8" orient="auto">
-    <path d="M0,0.5 L9.5,4 L0,7.5Z" fill="#17683b"/>
-  </marker>
-</defs>
+  <rect x="0" y="0" width="1280" height="760" fill="#ffffff"/>
 
-<line x1="260" y1="54" x2="260" y2="418" stroke="#e6e8ee" stroke-width="1" stroke-dasharray="5,5"/>
-<line x1="525" y1="54" x2="525" y2="418" stroke="#e6e8ee" stroke-width="1" stroke-dasharray="5,5"/>
-<line x1="800" y1="54" x2="800" y2="418" stroke="#e6e8ee" stroke-width="1" stroke-dasharray="5,5"/>
-<line x1="1152" y1="54" x2="1152" y2="418" stroke="#e6e8ee" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="160" cy="44" r="18" fill="#2559d6"/>
+  <text x="160" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">1</text>
+  <text x="160" y="76" text-anchor="middle" fill="#2559d6" font-size="21" font-weight="800">INPUTS</text>
 
-<circle cx="135" cy="26" r="16" fill="#2457d6"/><text x="135" y="32" text-anchor="middle" fill="#fff" font-size="15.2" font-weight="700">1</text>
-<circle cx="393" cy="26" r="16" fill="#b86112"/><text x="393" y="32" text-anchor="middle" fill="#fff" font-size="15.2" font-weight="700">2</text>
-<circle cx="662" cy="26" r="16" fill="#7842d8"/><text x="662" y="32" text-anchor="middle" fill="#fff" font-size="15.2" font-weight="700">3</text>
-<circle cx="970" cy="26" r="16" fill="#17683b"/><text x="970" y="32" text-anchor="middle" fill="#fff" font-size="15.2" font-weight="700">4</text>
-<circle cx="1278" cy="26" r="16" fill="#147a95"/><text x="1278" y="32" text-anchor="middle" fill="#fff" font-size="15.2" font-weight="700">5</text>
+  <circle cx="475" cy="44" r="18" fill="#b86212"/>
+  <text x="475" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">2</text>
+  <text x="475" y="76" text-anchor="middle" fill="#b86212" font-size="21" font-weight="800">CALIBRATION</text>
 
-<text x="135" y="56" text-anchor="middle" fill="#2457d6" font-size="15.8" font-weight="800" letter-spacing="1.0">INPUTS</text>
-<text x="393" y="56" text-anchor="middle" fill="#b86112" font-size="15.8" font-weight="800" letter-spacing="1.0">CALIBRATION</text>
-<text x="662" y="56" text-anchor="middle" fill="#7842d8" font-size="15.2" font-weight="800" letter-spacing="0.8">SEEDING &amp; ROUTING</text>
-<text x="970" y="56" text-anchor="middle" fill="#17683b" font-size="15.8" font-weight="800" letter-spacing="1.0">LIFECYCLE</text>
-<text x="1278" y="56" text-anchor="middle" fill="#147a95" font-size="15.8" font-weight="800" letter-spacing="1.0">OUTPUTS</text>
+  <circle cx="765" cy="44" r="18" fill="#7a45d9"/>
+  <text x="765" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">3</text>
+  <text x="765" y="76" text-anchor="middle" fill="#7a45d9" font-size="20" font-weight="800">SEEDING &amp; ROUTING</text>
 
-<rect x="30" y="68" width="210" height="146" rx="10" fill="#eef4ff" stroke="#2457d6" stroke-width="2"/>
-<rect x="30" y="68" width="210" height="30" rx="10" fill="#2457d6"/>
-<text x="135" y="87" text-anchor="middle" fill="#fff" font-size="12.2" font-weight="700">SOURCE DOMAIN</text>
-<text x="135" y="129" text-anchor="middle" fill="#1f356f" font-size="14.8" font-weight="600">Known faults</text>
-<text x="135" y="161" text-anchor="middle" fill="#1f356f" font-size="14.8">Normal class</text>
-<text x="135" y="191" text-anchor="middle" fill="#1f356f" font-size="14.8">Labeled source data</text>
+  <circle cx="1080" cy="44" r="18" fill="#17683b"/>
+  <text x="1080" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">4</text>
+  <text x="1080" y="76" text-anchor="middle" fill="#17683b" font-size="21" font-weight="800">LIFECYCLE</text>
 
-<rect x="30" y="236" width="210" height="166" rx="10" fill="#effbf3" stroke="#198046" stroke-width="2"/>
-<rect x="30" y="236" width="210" height="30" rx="10" fill="#198046"/>
-<text x="135" y="255" text-anchor="middle" fill="#fff" font-size="12.2" font-weight="700">TARGET DOMAIN</text>
-<text x="135" y="300" text-anchor="middle" fill="#184f31" font-size="14.8" font-weight="600">Normal support set</text>
-<text x="135" y="334" text-anchor="middle" fill="#184f31" font-size="14.8">Unlabeled target data</text>
-<text x="135" y="368" text-anchor="middle" fill="#184f31" font-size="14.8">Target sample pool</text>
+  <circle cx="1080" cy="444" r="18" fill="#147a95"/>
+  <text x="1080" y="450" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">5</text>
+  <text x="1080" y="476" text-anchor="middle" fill="#147a95" font-size="21" font-weight="800">OUTPUTS</text>
 
-<rect x="295" y="92" width="205" height="258" rx="10" fill="#fffaf0" stroke="#b86112" stroke-width="2"/>
-<rect x="295" y="92" width="205" height="30" rx="10" fill="#b86112"/>
-<text x="397" y="111" text-anchor="middle" fill="#fff" font-size="11.6" font-weight="700">TARGET-NORMAL CALIBRATION</text>
-<text x="397" y="156" text-anchor="middle" fill="#43250a" font-size="14.6" font-weight="600">Residual reference space</text>
-<text x="397" y="191" text-anchor="middle" fill="#43250a" font-size="14.6" font-weight="600">Normal baseline (mu)</text>
-<text x="397" y="226" text-anchor="middle" fill="#43250a" font-size="14.6" font-weight="600">Direction + Energy</text>
-<rect x="325" y="248" width="144" height="42" rx="8" fill="#fde89a" stroke="#c2751f" stroke-width="1.2"/>
-<text x="397" y="268" text-anchor="middle" fill="#5f2f03" font-size="13.6" font-weight="700">d x ||r||</text>
-<text x="397" y="286" text-anchor="middle" fill="#7a410c" font-size="12.0">Residual decomposition</text>
-<text x="397" y="325" text-anchor="middle" fill="#91501a" font-size="13.2" font-style="italic">Condition-invariant features</text>
+  <rect x="40" y="112" width="240" height="168" rx="12" fill="#eef4ff" stroke="#2559d6" stroke-width="2.4"/>
+  <rect x="40" y="112" width="240" height="34" rx="12" fill="#2559d6"/>
+  <text x="160" y="134" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">SOURCE DOMAIN</text>
+  <text x="160" y="186" text-anchor="middle" fill="#1f356f" font-size="18" font-weight="600">Known faults</text>
+  <text x="160" y="224" text-anchor="middle" fill="#1f356f" font-size="18">Normal class</text>
+  <text x="160" y="258" text-anchor="middle" fill="#1f356f" font-size="18">Labeled source data</text>
 
-<rect x="550" y="68" width="210" height="146" rx="10" fill="#f6f2ff" stroke="#7842d8" stroke-width="2"/>
-<rect x="550" y="68" width="210" height="30" rx="10" fill="#7842d8"/>
-<text x="655" y="87" text-anchor="middle" fill="#fff" font-size="12.2" font-weight="700">SOURCE SEEDS</text>
-<text x="655" y="129" text-anchor="middle" fill="#3a1f71" font-size="14.8" font-weight="600">Semantic priors</text>
-<text x="655" y="161" text-anchor="middle" fill="#3a1f71" font-size="14.8">Known-class anchors</text>
-<text x="655" y="191" text-anchor="middle" fill="#3a1f71" font-size="14.8">Prototype initialization</text>
+  <rect x="40" y="326" width="240" height="190" rx="12" fill="#effbf3" stroke="#198046" stroke-width="2.4"/>
+  <rect x="40" y="326" width="240" height="34" rx="12" fill="#198046"/>
+  <text x="160" y="348" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">TARGET DOMAIN</text>
+  <text x="160" y="402" text-anchor="middle" fill="#184f31" font-size="18" font-weight="600">Normal support set</text>
+  <text x="160" y="440" text-anchor="middle" fill="#184f31" font-size="18">Unlabeled target data</text>
+  <text x="160" y="478" text-anchor="middle" fill="#184f31" font-size="18">Target sample pool</text>
 
-<rect x="550" y="236" width="210" height="166" rx="10" fill="#fff1f6" stroke="#c11d67" stroke-width="2"/>
-<rect x="550" y="236" width="210" height="30" rx="10" fill="#c11d67"/>
-<text x="655" y="255" text-anchor="middle" fill="#fff" font-size="12.2" font-weight="700">TARGET DISCOVERY</text>
-<text x="655" y="300" text-anchor="middle" fill="#5c1538" font-size="14.8" font-weight="600">Fault scoring</text>
-<text x="655" y="334" text-anchor="middle" fill="#5c1538" font-size="14.8">Candidate discovery</text>
-<text x="655" y="368" text-anchor="middle" fill="#5c1538" font-size="14.8">Bootstrap initialization</text>
+  <rect x="360" y="214" width="230" height="208" rx="12" fill="#fffaf0" stroke="#b86212" stroke-width="2.4"/>
+  <rect x="360" y="214" width="230" height="34" rx="12" fill="#b86212"/>
+  <text x="475" y="236" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">TARGET-NORMAL CALIBRATION</text>
+  <text x="475" y="290" text-anchor="middle" fill="#43250a" font-size="18" font-weight="600">Residual reference space</text>
+  <text x="475" y="330" text-anchor="middle" fill="#43250a" font-size="18">Normal baseline (mu)</text>
+  <text x="475" y="368" text-anchor="middle" fill="#43250a" font-size="18">Direction + Energy</text>
+  <rect x="395" y="384" width="160" height="42" rx="8" fill="#fde89a" stroke="#c2751f" stroke-width="1.4"/>
+  <text x="475" y="403" text-anchor="middle" fill="#5f2f03" font-size="16" font-weight="700">Residual split</text>
+  <text x="475" y="418" text-anchor="middle" fill="#7a410c" font-size="13">direction and energy</text>
 
-<rect x="820" y="62" width="300" height="350" rx="10" fill="#eefaf1" stroke="#17683b" stroke-width="2"/>
-<rect x="820" y="62" width="300" height="30" rx="10" fill="#17683b"/>
-<text x="970" y="81" text-anchor="middle" fill="#fff" font-size="12.2" font-weight="700">PROTOTYPE ECOSYSTEM</text>
+  <rect x="650" y="112" width="230" height="168" rx="12" fill="#f6f2ff" stroke="#7a45d9" stroke-width="2.4"/>
+  <rect x="650" y="112" width="230" height="34" rx="12" fill="#7a45d9"/>
+  <text x="765" y="134" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">SOURCE SEEDS</text>
+  <text x="765" y="186" text-anchor="middle" fill="#3a1f71" font-size="18" font-weight="600">Semantic priors</text>
+  <text x="765" y="224" text-anchor="middle" fill="#3a1f71" font-size="18">Known-class anchors</text>
+  <text x="765" y="258" text-anchor="middle" fill="#3a1f71" font-size="18">Prototype initialization</text>
 
-<rect x="840" y="104" width="120" height="80" rx="9" fill="#fff" stroke="#17683b" stroke-width="1.9"/>
-<rect x="980" y="104" width="120" height="80" rx="9" fill="#fff" stroke="#17683b" stroke-width="1.9"/>
-<rect x="840" y="280" width="120" height="80" rx="9" fill="#fff" stroke="#17683b" stroke-width="1.9"/>
-<rect x="980" y="280" width="120" height="80" rx="9" fill="#fff" stroke="#17683b" stroke-width="1.9"/>
-<text x="900" y="140" text-anchor="middle" fill="#0f4f2f" font-size="17.2" font-weight="700">Birth</text>
-<text x="1040" y="140" text-anchor="middle" fill="#0f4f2f" font-size="17.2" font-weight="700">Mature</text>
-<text x="900" y="316" text-anchor="middle" fill="#0f4f2f" font-size="17.2" font-weight="700">Compete</text>
-<text x="1040" y="316" text-anchor="middle" fill="#0f4f2f" font-size="17.2" font-weight="700">Prune</text>
-<text x="970" y="236" text-anchor="middle" fill="#17683b" font-size="15.0" font-weight="700">RDS feedback</text>
-<text x="970" y="390" text-anchor="middle" fill="#17683b" font-size="13.6">Stable prototype pool</text>
+  <rect x="650" y="326" width="230" height="190" rx="12" fill="#fff1f6" stroke="#c11c66" stroke-width="2.4"/>
+  <rect x="650" y="326" width="230" height="34" rx="12" fill="#c11c66"/>
+  <text x="765" y="348" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">TARGET DISCOVERY</text>
+  <text x="765" y="402" text-anchor="middle" fill="#5c1538" font-size="18" font-weight="600">Fault scoring</text>
+  <text x="765" y="440" text-anchor="middle" fill="#5c1538" font-size="18">Candidate discovery</text>
+  <text x="765" y="478" text-anchor="middle" fill="#5c1538" font-size="18">Bootstrap initialization</text>
 
-<line x1="960" y1="143" x2="980" y2="143" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
-<line x1="1040" y1="184" x2="1040" y2="280" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
-<line x1="980" y1="319" x2="960" y2="319" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
-<line x1="900" y1="280" x2="900" y2="184" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
+  <rect x="940" y="98" width="280" height="320" rx="12" fill="#f1faf4" stroke="#17683b" stroke-width="2.4"/>
+  <rect x="940" y="98" width="280" height="34" rx="12" fill="#17683b"/>
+  <text x="1080" y="120" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">PROTOTYPE ECOSYSTEM</text>
 
-<rect x="1166" y="114" width="240" height="236" rx="10" fill="#ecfbff" stroke="#147a95" stroke-width="2"/>
-<rect x="1166" y="114" width="240" height="30" rx="10" fill="#147a95"/>
-<text x="1286" y="133" text-anchor="middle" fill="#fff" font-size="12.2" font-weight="700">FINAL OUTPUTS</text>
-<rect x="1188" y="160" width="8" height="8" rx="2" fill="#2457d6"/><text x="1204" y="171" fill="#123949" font-size="14.2" font-weight="600">Binary fault detection</text>
-<rect x="1188" y="196" width="8" height="8" rx="2" fill="#c11d67"/><text x="1204" y="207" fill="#123949" font-size="14.2" font-weight="600">Reference discovery</text>
-<rect x="1188" y="232" width="8" height="8" rx="2" fill="#17683b"/><text x="1204" y="243" fill="#123949" font-size="14.2" font-weight="600">RDS / Purity / Coverage</text>
-<line x1="1188" y1="258" x2="1380" y2="258" stroke="#b6ebf8" stroke-width="1"/>
-<text x="1286" y="282" text-anchor="middle" fill="#147a95" font-size="12.8" font-weight="600">K-Acc  U-Acc  H-Score</text>
-<text x="1286" y="304" text-anchor="middle" fill="#147a95" font-size="12.8">Mapped-Acc  RDS</text>
+  <rect x="968" y="150" width="108" height="76" rx="10" fill="#ffffff" stroke="#17683b" stroke-width="2"/>
+  <rect x="1084" y="150" width="108" height="76" rx="10" fill="#ffffff" stroke="#17683b" stroke-width="2"/>
+  <rect x="968" y="286" width="108" height="76" rx="10" fill="#ffffff" stroke="#17683b" stroke-width="2"/>
+  <rect x="1084" y="286" width="108" height="76" rx="10" fill="#ffffff" stroke="#17683b" stroke-width="2"/>
 
-<path d="M240,142 C272,142 272,188 295,188" stroke="#2457d6" stroke-width="4" fill="none" marker-end="url(#m-blue)"/>
-<path d="M240,318 C272,318 272,278 295,278" stroke="#198046" stroke-width="4" fill="none" marker-end="url(#m-green)"/>
-<path d="M500,188 C525,188 525,142 550,142" stroke="#7842d8" stroke-width="3.6" fill="none" stroke-dasharray="10,6" marker-end="url(#m-purple)"/>
-<path d="M500,278 C525,278 525,320 550,320" stroke="#c11d67" stroke-width="3.6" fill="none" stroke-dasharray="10,6" marker-end="url(#m-rose)"/>
-<path d="M760,142 C790,142 790,172 820,172" stroke="#7842d8" stroke-width="4" fill="none" marker-end="url(#m-purple)"/>
-<path d="M760,320 C790,320 790,306 820,306" stroke="#c11d67" stroke-width="4" fill="none" marker-end="url(#m-rose)"/>
-<path d="M1120,230 C1148,230 1148,212 1166,212" stroke="#147a95" stroke-width="4" fill="none" marker-end="url(#m-teal)"/>
+  <text x="1022" y="194" text-anchor="middle" fill="#14542e" font-size="19" font-weight="700">Birth</text>
+  <text x="1138" y="194" text-anchor="middle" fill="#14542e" font-size="19" font-weight="700">Mature</text>
+  <text x="1022" y="330" text-anchor="middle" fill="#14542e" font-size="19" font-weight="700">Compete</text>
+  <text x="1138" y="330" text-anchor="middle" fill="#14542e" font-size="19" font-weight="700">Prune</text>
 
+  <line x1="1076" y1="188" x2="1084" y2="188" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
+  <line x1="1138" y1="226" x2="1138" y2="286" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
+  <line x1="1084" y1="324" x2="1076" y2="324" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
+  <line x1="1022" y1="286" x2="1022" y2="226" stroke="#17683b" stroke-width="3" marker-end="url(#m-eco)"/>
+
+  <text x="1080" y="266" text-anchor="middle" fill="#17683b" font-size="17" font-weight="700">RDS feedback</text>
+  <line x1="970" y1="382" x2="1190" y2="382" stroke="#b7e2c7" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <text x="1080" y="406" text-anchor="middle" fill="#17683b" font-size="17">Stable prototype pool</text>
+
+  <rect x="940" y="500" width="280" height="170" rx="12" fill="#eff9fc" stroke="#147a95" stroke-width="2.4"/>
+  <rect x="940" y="500" width="280" height="34" rx="12" fill="#147a95"/>
+  <text x="1080" y="522" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">FINAL OUTPUTS</text>
+  <rect x="970" y="560" width="9" height="9" rx="2" fill="#2559d6"/>
+  <text x="995" y="569" fill="#114555" font-size="17">Binary fault detection</text>
+  <rect x="970" y="602" width="9" height="9" rx="2" fill="#c11c66"/>
+  <text x="995" y="611" fill="#114555" font-size="17">Reference discovery</text>
+  <rect x="970" y="644" width="9" height="9" rx="2" fill="#17683b"/>
+  <text x="995" y="653" fill="#114555" font-size="17">RDS / Purity / Coverage</text>
+
+  <path d="M280,196 C324,196 324,280 360,280" stroke="#2559d6" stroke-width="4" fill="none" marker-end="url(#m-blue)"/>
+  <path d="M280,420 C324,420 324,350 360,350" stroke="#198046" stroke-width="4" fill="none" marker-end="url(#m-green)"/>
+
+  <path d="M590,286 C622,286 622,196 650,196" stroke="#7a45d9" stroke-width="3.5" fill="none" stroke-dasharray="10,7" marker-end="url(#m-purple)"/>
+  <path d="M590,352 C622,352 622,421 650,421" stroke="#c11c66" stroke-width="3.5" fill="none" stroke-dasharray="10,7" marker-end="url(#m-rose)"/>
+
+  <path d="M880,196 C910,196 910,236 940,236" stroke="#7a45d9" stroke-width="4" fill="none" marker-end="url(#m-purple)"/>
+  <path d="M880,421 C910,421 910,306 940,306" stroke="#c11c66" stroke-width="4" fill="none" marker-end="url(#m-rose)"/>
+
+  <path d="M1080,418 C1080,446 1080,468 1080,500" stroke="#147a95" stroke-width="4" fill="none" marker-end="url(#m-teal)"/>
+  <rect x="1026" y="454" width="108" height="28" rx="6" fill="#ffffff" stroke="#d9dee8" stroke-width="1"/>
+  <text x="1080" y="472" text-anchor="middle" fill="#147a95" font-size="14" font-style="italic">mature refs</text>
 </svg>
