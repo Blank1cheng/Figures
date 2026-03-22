@@ -24,23 +24,23 @@
 
   <circle cx="160" cy="44" r="18" fill="#3d66b4"/>
   <text x="160" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">1</text>
-  <text x="160" y="76" text-anchor="middle" fill="#315ea8" font-size="21" font-weight="800">INPUTS</text>
+  <text x="160" y="82" text-anchor="middle" fill="#315ea8" font-size="21" font-weight="800">INPUTS</text>
 
   <circle cx="470" cy="44" r="18" fill="#b37736"/>
   <text x="470" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">2</text>
-  <text x="470" y="76" text-anchor="middle" fill="#ad6f2e" font-size="21" font-weight="800">CALIBRATION</text>
+  <text x="470" y="82" text-anchor="middle" fill="#ad6f2e" font-size="21" font-weight="800">CALIBRATION</text>
 
   <circle cx="770" cy="44" r="18" fill="#7b63c4"/>
   <text x="770" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">3</text>
-  <text x="770" y="76" text-anchor="middle" fill="#7259bf" font-size="20" font-weight="800">SEEDING &amp; ROUTING</text>
+  <text x="770" y="82" text-anchor="middle" fill="#7259bf" font-size="20" font-weight="800">SEEDING &amp; ROUTING</text>
 
   <circle cx="1085" cy="44" r="18" fill="#2c6f4a"/>
   <text x="1085" y="50" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">4</text>
-  <text x="1085" y="76" text-anchor="middle" fill="#2c6f4a" font-size="21" font-weight="800">LIFECYCLE</text>
+  <text x="1085" y="82" text-anchor="middle" fill="#2c6f4a" font-size="21" font-weight="800">LIFECYCLE</text>
 
   <circle cx="1085" cy="448" r="18" fill="#3a7f93"/>
   <text x="1085" y="454" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">5</text>
-  <text x="1085" y="480" text-anchor="middle" fill="#3a7f93" font-size="21" font-weight="800">OUTPUTS</text>
+  <text x="1085" y="486" text-anchor="middle" fill="#3a7f93" font-size="21" font-weight="800">OUTPUTS</text>
 
   <rect x="44" y="112" width="232" height="166" rx="12" fill="#f5f8fe" stroke="#3d66b4" stroke-width="2.2"/>
   <rect x="44" y="112" width="232" height="34" rx="12" fill="#3d66b4"/>
@@ -84,22 +84,22 @@
   <rect x="950" y="98" width="270" height="34" rx="12" fill="#2c6f4a"/>
   <text x="1085" y="120" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">PROTOTYPE ECOSYSTEM</text>
 
-  <rect x="978" y="150" width="106" height="76" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
-  <rect x="1086" y="150" width="106" height="76" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
-  <rect x="978" y="286" width="106" height="76" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
-  <rect x="1086" y="286" width="106" height="76" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
+  <rect x="986" y="156" width="96" height="68" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
+  <rect x="1088" y="156" width="96" height="68" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
+  <rect x="986" y="288" width="96" height="68" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
+  <rect x="1088" y="288" width="96" height="68" rx="10" fill="#ffffff" stroke="#2c6f4a" stroke-width="1.8"/>
 
-  <text x="1031" y="194" text-anchor="middle" fill="#27563a" font-size="19" font-weight="700">Birth</text>
-  <text x="1139" y="194" text-anchor="middle" fill="#27563a" font-size="19" font-weight="700">Mature</text>
-  <text x="1031" y="330" text-anchor="middle" fill="#27563a" font-size="19" font-weight="700">Compete</text>
-  <text x="1139" y="330" text-anchor="middle" fill="#27563a" font-size="19" font-weight="700">Prune</text>
+  <text x="1034" y="196" text-anchor="middle" fill="#27563a" font-size="18" font-weight="700">Birth</text>
+  <text x="1136" y="196" text-anchor="middle" fill="#27563a" font-size="18" font-weight="700">Mature</text>
+  <text x="1034" y="328" text-anchor="middle" fill="#27563a" font-size="18" font-weight="700">Compete</text>
+  <text x="1136" y="328" text-anchor="middle" fill="#27563a" font-size="18" font-weight="700">Prune</text>
 
-  <path d="M1084,188 L1086,188" stroke="#2c6f4a" stroke-width="2.8" marker-end="url(#m-eco)"/>
-  <path d="M1139,226 L1139,286" stroke="#2c6f4a" stroke-width="2.8" marker-end="url(#m-eco)"/>
-  <path d="M1086,324 L1084,324" stroke="#2c6f4a" stroke-width="2.8" marker-end="url(#m-eco)"/>
-  <path d="M1031,286 L1031,226" stroke="#2c6f4a" stroke-width="2.8" marker-end="url(#m-eco)"/>
+  <path d="M1082,190 C1084,190 1085,190 1088,190" stroke="#2c6f4a" stroke-width="3.2" marker-end="url(#m-eco)"/>
+  <path d="M1136,224 C1136,246 1136,264 1136,288" stroke="#2c6f4a" stroke-width="3.2" marker-end="url(#m-eco)"/>
+  <path d="M1088,322 C1086,322 1085,322 1082,322" stroke="#2c6f4a" stroke-width="3.2" marker-end="url(#m-eco)"/>
+  <path d="M1034,288 C1034,264 1034,246 1034,224" stroke="#2c6f4a" stroke-width="3.2" marker-end="url(#m-eco)"/>
 
-  <text x="1085" y="264" text-anchor="middle" fill="#2c6f4a" font-size="17" font-weight="700">RDS feedback</text>
+  <text x="1085" y="262" text-anchor="middle" fill="#2c6f4a" font-size="17" font-weight="700">RDS feedback</text>
   <line x1="980" y1="382" x2="1190" y2="382" stroke="#c7e0d1" stroke-width="1.4" stroke-dasharray="5,5"/>
   <text x="1085" y="406" text-anchor="middle" fill="#2c6f4a" font-size="17">Stable prototype pool</text>
 
@@ -113,14 +113,14 @@
   <rect x="980" y="652" width="8" height="8" rx="2" fill="#2c6f4a"/>
   <text x="1006" y="661" fill="#255061" font-size="17">RDS / Purity / Coverage</text>
 
-  <path d="M276,195 C320,195 319,279 358,279" stroke="#3d66b4" stroke-width="3.7" fill="none" marker-end="url(#m-blue)"/>
-  <path d="M276,422 C320,422 319,352 358,352" stroke="#2f8758" stroke-width="3.7" fill="none" marker-end="url(#m-green)"/>
+  <path d="M276,195 C322,195 326,279 358,279" stroke="#3d66b4" stroke-width="4.1" fill="none" marker-end="url(#m-blue)"/>
+  <path d="M276,422 C322,422 326,352 358,352" stroke="#2f8758" stroke-width="4.1" fill="none" marker-end="url(#m-green)"/>
 
-  <path d="M584,287 C626,287 626,205 664,195" stroke="#7b63c4" stroke-width="3.1" fill="none" stroke-dasharray="9,8" marker-end="url(#m-purple)"/>
-  <path d="M584,352 C628,352 628,412 664,422" stroke="#bf557f" stroke-width="3.1" fill="none" stroke-dasharray="9,8" marker-end="url(#m-rose)"/>
+  <path d="M584,287 C632,287 632,205 664,195" stroke="#7b63c4" stroke-width="3.4" fill="none" stroke-dasharray="9,8" marker-end="url(#m-purple)"/>
+  <path d="M584,352 C632,352 632,412 664,422" stroke="#bf557f" stroke-width="3.4" fill="none" stroke-dasharray="9,8" marker-end="url(#m-rose)"/>
 
-  <path d="M894,195 C924,195 930,224 950,236" stroke="#7b63c4" stroke-width="3.7" fill="none" marker-end="url(#m-purple)"/>
-  <path d="M894,422 C924,422 930,318 950,306" stroke="#bf557f" stroke-width="3.7" fill="none" marker-end="url(#m-rose)"/>
+  <path d="M894,195 C926,195 934,224 950,236" stroke="#7b63c4" stroke-width="4.1" fill="none" marker-end="url(#m-purple)"/>
+  <path d="M894,422 C926,422 934,318 950,306" stroke="#bf557f" stroke-width="4.1" fill="none" marker-end="url(#m-rose)"/>
 
-  <path d="M1138,416 C1138,452 1138,474 1138,514" stroke="#3a7f93" stroke-width="3.7" fill="none" marker-end="url(#m-teal)"/>
+  <path d="M1148,416 C1148,452 1148,474 1148,514" stroke="#3a7f93" stroke-width="4.1" fill="none" marker-end="url(#m-teal)"/>
 </svg>
